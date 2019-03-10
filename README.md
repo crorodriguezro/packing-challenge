@@ -3,8 +3,8 @@
 The problem was solved by finding all the possible combinations, filtering the non-viable ones and finally choosing the
 best solution combination based on its cost and weight.
 
-Tools used:
 TDD was used most of the time (except on the development of the additional constraints).
+
 Most of the functions are pure functions and our domain is immutable, that increases the maintainability.
  
 Recursion is used to find all the combinations. The solution executes in quadratic time (O(n^2)).
